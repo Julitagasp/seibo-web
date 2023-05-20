@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Calisga";
+    src: local("fonts/Calisga.ttf"), url("fonts/Calisga.ttf")
+  }
+
+@font-face {
+    font-family: "KinshipSans-400";
+    src: local("fonts/KinshipSans-400.otf") format("opentype");
+}
+@font-face {
+    font-family: "KinshipSans-100";
+    src: local("fonts/KinshipSans-100.otf") format("opentype");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    padding: 32px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    font-family: "KinshipSans-100";
+}
+
+.header.title {
+    padding: 0;
+    margin: 0;
+}
+
+.slogan {
+    font-size: 12px;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+
+.box {
+    margin: 30px;
+    position: relative;
+}
+
+.box img {
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+}
+
+.box p {
+    font-family: "KinshipSans-400";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 32px;
+    margin: 0;
+}
+
+.box img:hover {
+    opacity: 40%;
+}
+
+.box img:hover + p {
+    display: block;
+}
+
+.content img p {
+    position: absolute;
+}
+
+#logo {
+    max-height: 50px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 32px auto;
+    justify-content: space-between;
+    width: 50%;
+    background-position: center;
+    font-family: "KinshipSans-100";
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #c14135;
+}
