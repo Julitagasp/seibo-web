@@ -1,3 +1,0 @@
-# seibo-web
-
-## Mi proyecto
