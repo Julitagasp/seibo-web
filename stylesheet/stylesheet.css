@@ -97,8 +97,18 @@ body {
   font-size: 32px;
 }
 
-#carta.row {
-  margin: 12px 0px;
+#carta > .row {
+  margin-bottom: 16px;;
+}
+
+@media(max-width:800px) {
+  .menu-title {
+    font-size: 24px;
+  }
+
+  #carta > .row {
+    font-size: 12px;;
+  }
 }
 
 @media(max-width:1200px) {
