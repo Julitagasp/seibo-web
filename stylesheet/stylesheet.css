@@ -88,6 +88,19 @@ body {
   text-align: center;
 }
 
+.content#carta {
+  width: 50%;
+  display: block;
+}
+
+.menu-title {
+  font-size: 32px;
+}
+
+#carta.row {
+  margin: 12px 0px;
+}
+
 @media(max-width:1200px) {
   .content {
     width: 100%;
